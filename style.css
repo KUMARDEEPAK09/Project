@@ -1,187 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    
+    overflow: hidden;
+    font-family: "Red Rose", cursive;
+    list-style: none;
 
 }
 
 body {
-    height: 100vh;
     width: 100vw;
-    display: flex;
-    background-color: #edf1fd;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-li {
-    list-style: none;
-    cursor: pointer;
-    
-
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    background-color: rgb(18, 155, 155);
-    padding: 4px 10px;
-    cursor: pointer;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-weight: 700;
-    width: fit-content;
-}
-
-button:hover {
-    background-color: white;
-    color: rgb(18, 155, 155);
-    border: 1px solid black;
-
-}
-
-header {
-    padding: 15px 0;
-}
-
-nav {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-   
-}
-/* 
-nav.logo {
-    /* font-weight: 900;
-    font-size: 40px; */
-    /* gap: 30px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    
-} */ 
-
-nav ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    font-weight: 500;
-    
-    
-}
-
-nav ul li:hover {
-    text-decoration: underline;
-    font-weight: 900;
-    
-    
-}
-
-.Search-field {
-    display: flex;
-    gap: 30px;
-}
-
-input {
-    padding: 4px 10px;
-}
-
-
-.hero-section {
-    display: flex;
-    align-items: center;
-}
-
-.hero-left-section {
-    width: 60%;
-    padding:0 8% ;
-}
-
-.hero-left-section h1 {
-    font-size: 30px;
-    margin: 20px;
-    font-weight: 600;
-    margin-bottom: 10%;
-}
-
-.hero-left-section h1 span {
-    font-weight: 900;
-    color: rgb(18, 155, 155);
-    background-color: #dfdfe0;
-    padding: 0 15px;
-    
-}
-
-.hero-left-section p {
-    font-weight: 500;
-    font-size: 30px;
-
-}
-
-.hero-left-section p span {
-    font-weight: 700;
-    font-size: 25px;
-    color: rgb(18, 155, 155);
-} 
-
-.hero-right-divsion {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    background-image: url('../ASSETS/pexels-maxyne-barcel-10402282\ 1.png');
+}
+
+
+  header {
+        width: 100%;
+        height: 100px;
+        color: #ffc233;
+        display: flex;
+        align-items: center;
+        padding: 0px 100px;
+        
+  }
+
+  .nav-bar ul {
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin-left:150px;
+    font-size: 20px;
     gap: 30px;
+    
+  }
+
+  .btn {
+    
+    margin-left: 400px;
+    
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fcfaf7;
+    background-color: #ff505f;
+    text-shadow: none;
+    
+  }
+.hero {
+  align-items: center;
+  margin-top: 80px;
+  justify-content: center;
+  margin-left: 300px;
+  font-size: 50px;
+  padding: 5px;
+  color: #ffc233;
+  font-weight: 900;
+  font-family: "Red Rose", cursive;
+  margin-bottom: 200px;
+  
 }
 
-.hero-right-divsion-btns {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .hero-right-divsion img {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-  }
-
-  footer {
-     display: flex;
-     font-weight: 700;
-     padding: 20px 0;
-     justify-content: space-around;
-  }
-
-  footer ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    
-  }
-
-  footer p {
-    font-weight: 600;
-    
-    
-  }
-
+.logo {
+  margin-top: 20px;
+}
+ 
   
- footer ul li a i:hover {
-    font-weight: 900;
- }
 
- .logo {
-    height: 100px;
-    width: auto;
-   
+
+.scrl {
+  margin-left: 1100px;
+  
+ 
+}
+
+.scrl img {
+     
+  font-size: 10px;
+  padding-bottom: 70px;
+  height: 200px;
+}
+  .bt-3 {
+    text-align: center;
+    margin-top:10px;
+    width: 100%;
+    height: auto;
+    line-height: 40px;
+    display: flex;
+    font-weight: 700;
+    margin-left: 260px;
+    font-style: normal;
+    padding-bottom: 20px;
     
-    
- }
+  }
+
   
