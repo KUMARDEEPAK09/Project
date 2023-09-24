@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.navbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+    
+    
+}
+
+.main-list {
+
+    flex-grow: 1;
+   
+
+}
+
+.sub-list {
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    list-style: none;
+    margin-left: 80px;
+    line-height: 60px;
+    cursor: pointer;
+   
+}
+
+ .main-list li:hover {
+    font-size: 17px;
+    color:rgb(243, 241, 118) ;
+}
+
+.line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 40px;
+}
+
+.logo {
+   margin-left: 50px;
+   padding: 10px;
+   
+}
+
+img {
+    height: auto;
+    width: 150px;
+}
+
+.small-button {
+    padding: 18px;
+    margin-right: 40px;
+    line-height: 6px;
+    border-radius: 6px;
+    border: none;
+    font-family:'Poppins' ;
+    font-size: 15px;
+    background-color:#ba0cc5;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.small-button:hover {
+    
+    font-size: 16px;
+    color: rgb(243, 241, 118);
+}
+
+.Hero {
+  background-image: url(../ASSETS/bg.png);
+  height: 130vh;
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.Hero-heading {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 85px;
+    padding-top: 130px;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Poppins';
+
+}
+
+.small-para {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    font-family:'Poppins';
+    line-height: 45px;
+    font-style: normal;
+}
+
+.bottom-button {
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #ba0cc5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bottom-button:hover {
+    font-size: 16px;
+    color:rgb(243, 241, 118) ;
+}
+
+
+
