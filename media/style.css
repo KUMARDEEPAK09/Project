@@ -1,0 +1,55 @@
+.body {
+    background-color: aqua;
+}
+
+div{
+    font-size: 50px;
+    text-align: center;
+}
+
+div::after {
+    content: 'welcome to media query demo page'
+}
+
+@media  (min-width:1025px) {
+    body {
+        background-color: darkgreen;
+        align-items: center;
+    }
+
+    div::after {
+       content:'large screen for 1440px'
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    body {
+        background-color: darkkhaki;
+    }
+
+    div::after {
+        content: 'for laptop screen for 1024'
+    }
+}
+
+
+@media (min-width:425px) and (max-width:768px) {
+    body {
+        background-color: aqua;
+    }
+
+    div::after {
+        content: 'tablet screen for 768px'
+    }
+}
+
+@media (max-width:424px)
+{
+    body {
+        background-color: brown;
+    }
+
+    div::after {
+        content: 'for mobile screen 424px'
+    }
+}
